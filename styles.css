@@ -1,0 +1,191 @@
+* {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration:none;
+    font-size: 19px;
+    color:#E5E7EB;
+}
+
+.header, .top, .footer {
+    background-color: #1F2937;
+    width: 100%;
+    
+}
+
+.logo {
+    font-size:24px;
+    color:#F9FAF8;
+    font-weight:bolder;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    margin:0px;
+}
+
+.subtext {
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+button {
+    background: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border:0;
+    padding: 10px 30px ;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    
+}
+
+.bottom {
+    background-color: #E5E7EB;
+    margin:30px 0px;
+    padding: 100px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    max-width: 800px;
+    
+    
+}
+
+.author {
+    font-weight: bold;
+    font-size:20px;
+    text-align: end;
+    max-width: 800px;
+}
+
+.box {
+    height: 150px;
+    border: 4px solid;
+    border-color: #3882F6;
+    width: 150px;
+    border-radius:15px;
+}
+
+.description {
+    max-width: 150px;
+    margin:10px 5px;
+    text-align: center;
+    color:rgb(97, 95, 95);
+    font-size: 16px;
+    
+}
+
+.image {
+    padding:100px 150px;
+    margin:20px 0px;
+    color: white;
+    background-color: grey;
+}
+
+.body {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.rectangle {
+    background-color: #3882F6;
+    color:white;
+    font-size: 18px;
+    padding: 50px 100px;
+    margin: 50px 0px;
+}
+
+.action {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.button-two {
+    border: 2px solid white;
+    border-radius: 10px;
+
+
+}
+
+.holder {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    color:#E5E7EB;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    align-items: center;
+    
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    gap:8.5%;
+    padding: 100px;
+}
+
+.left {
+    max-width: 500px;
+
+}
+
+.rock-bottom {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.around {
+    background-color: #3882F6;
+    padding:73px;
+}
