@@ -119,6 +119,7 @@ button {
     display: flex;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .rectangle {
