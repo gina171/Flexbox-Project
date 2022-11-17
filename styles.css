@@ -55,6 +55,8 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+    
     
 }
 
@@ -120,6 +122,7 @@ button {
     align-items: center;
     gap: 40px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .rectangle {
@@ -128,6 +131,8 @@ button {
     font-size: 18px;
     padding: 0px;
     margin: 0px;
+   
+    
 }
 
 .action {
@@ -161,6 +166,8 @@ button {
     flex-direction: column;
     align-items: center;
     margin:50px 0px;
+    flex-wrap: wrap;
+
 }
 
 .footer {
@@ -174,6 +181,7 @@ button {
     justify-content: center;
     gap: 30%;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
@@ -187,6 +195,8 @@ button {
     justify-content: center;
     gap:8.5%;
     padding: 100px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .left {
@@ -199,11 +209,14 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    width: 1000px;
-    height:150px;
+    max-width: 4000px;
+    max-height:150px;
     margin:100px 0px;
     border-radius: 10px;
     gap: 100px;
+    flex:1 1 auto;
+    padding: 50px 200px;
+    
 }
 
 
