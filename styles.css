@@ -1,5 +1,7 @@
 * {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
 }
 
 ul {
@@ -15,6 +17,9 @@ a {
 .header, .top, .footer {
     background-color: #1F2937;
     width: 100%;
+    box-sizing:border-box;
+    
+    
     
 }
 
@@ -120,13 +125,21 @@ button {
     background-color: #3882F6;
     color:white;
     font-size: 18px;
-    padding: 50px 100px;
-    margin: 50px 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .action {
     font-weight: bold;
     font-size: 22px;
+    margin:0px;
+    padding:0px;
+    line-height:0px;
+}
+
+.click {
+    margin:0px;
+    padding:0px;
 }
 
 .button-two {
@@ -146,6 +159,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin:50px 0px;
 }
 
 .footer {
@@ -183,9 +197,17 @@ button {
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: #3882F6;
+    width: 1000px;
+    height:150px;
+    margin:100px 0px;
+    border-radius: 10px;
+    gap: 100px;
 }
 
-.around {
-    background-color: #3882F6;
-    padding:73px;
+
+body {
+    margin:0px;
 }
+
+
